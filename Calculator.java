@@ -5,7 +5,7 @@ public class Calculator {
 	public static void main(String[] args) { 
 		Scanner input = null;
 		try {
-			// Get user input
+			// Get user inputt
 			input = new Scanner(System.in);
 			System.out.print("First number: ");
 			float firstNumber = Float.parseFloat(input.nextLine().replace(",", "."));
